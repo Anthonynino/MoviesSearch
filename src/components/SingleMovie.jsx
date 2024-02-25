@@ -10,10 +10,13 @@ const {isLoading, data} = useFetch(`&i=${id}`)
     if(isLoading){
         return(
             <div className="d-flex justify-content-center align-items-center" style={{height:'100vh'}}>
-                <div className="spinner-border " role="status" style={{width: '12rem',height: '12rem'}}>
-                    <span className="visually-hidden ">Loading...</span>
-                </div>
-            </div> 
+            <div className="spinner-border " role="status" style={{width: '12rem',height: '12rem'}}>
+                <span className="visually-hidden ">Loading...</span>
+            </div>
+            </div>
+            
+          
+            
             
         )
     }
